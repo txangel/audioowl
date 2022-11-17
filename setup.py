@@ -6,7 +6,7 @@ with open('README.md', encoding='utf8') as f:
 
 
 setup(name='audioowl',
-      version='0.0.14',
+      version='0.0.15',
       description='Fast and simple music and audio analysis using RNN in Python',
       long_description=long_description,
       long_description_content_type="text/markdown",
@@ -26,7 +26,7 @@ setup(name='audioowl',
         'numpy',
         'scipy',
         'cython',
-        'madmom>=0.15.1,<0.15.2',
+        'madmom>=0.15.1,<0.16.2',
         'librosa>=0.5.1,<0.5.2',
       ],
       include_package_data=True,
